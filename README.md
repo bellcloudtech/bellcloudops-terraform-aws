@@ -1,10 +1,10 @@
 ```
 
-\# BellCloudOps Terraform AWS Infrastructure Lab
+# BellCloudOps Terraform AWS Infrastructure Lab
 
 
 
-\## Project Overview
+## Project Overview
 
 This project demonstrates how to deploy AWS infrastructure using Terraform Infrastructure as Code (IaC).
 
@@ -22,7 +22,7 @@ This project simulates how cloud engineers deploy infrastructure programmaticall
 
 
 
-\## Architecture
+## Architecture
 
 
 
@@ -30,21 +30,21 @@ The Terraform configuration automatically creates the following AWS resources:
 
 
 
-\- VPC
+- VPC
 
-\- Public Subnet
+- Public Subnet
 
-\- Private Subnet
+- Private Subnet
 
-\- Internet Gateway
+- Internet Gateway
 
-\- Route Table
+- Route Table
 
-\- Route Table Association
+- Route Table Association
 
-\- Security Group
+- Security Group
 
-\- EC2 Web Server
+- EC2 Web Server
 
 
 
@@ -56,7 +56,7 @@ The EC2 instance runs a web server that hosts a basic webpage representing a fic
 
 
 
-\## Architecture Diagram
+## Architecture Diagram
 
 
 
@@ -88,43 +88,21 @@ Internet Gateway
 
 
 
-\## Technologies Used
+## Technologies Used
 
 
 
-\- Terraform
+- Terraform
 
-\- AWS EC2
+- AWS EC2
 
-\- AWS VPC
+- AWS VPC
 
-\- AWS Networking
+- AWS Networking
 
-\- Apache Web Server
+- Apache Web Server
 
-\- Linux
-
-
-
----
-
-
-
-\## AWS Services Used
-
-
-
-\- Amazon EC2
-
-\- Amazon VPC
-
-\- Internet Gateway
-
-\- Subnets
-
-\- Route Tables
-
-\- Security Groups
+- Linux
 
 
 
@@ -132,7 +110,29 @@ Internet Gateway
 
 
 
-\## Terraform Commands Used
+## AWS Services Used
+
+
+
+- Amazon EC2
+
+- Amazon VPC
+
+- Internet Gateway
+
+- Subnets
+
+- Route Tables
+
+- Security Groups
+
+
+
+---
+
+
+
+## Terraform Commands Used
 
 
 
@@ -180,7 +180,7 @@ terraform destroy
 
 
 
-\## What This Project Demonstrates
+## What This Project Demonstrates
 
 
 
@@ -188,17 +188,17 @@ This project demonstrates several important cloud engineering skills:
 
 
 
-\- Infrastructure as Code using Terraform
+- Infrastructure as Code using Terraform
 
-\- Creating AWS networking environments
+- Creating AWS networking environments
 
-\- Deploying compute resources in AWS
+- Deploying compute resources in AWS
 
-\- Configuring secure network access
+- Configuring secure network access
 
-\- Hosting a web server on cloud infrastructure
+- Hosting a web server on cloud infrastructure
 
-\- Automating infrastructure deployment
+- Automating infrastructure deployment
 
 
 
@@ -210,7 +210,7 @@ These are foundational skills used by cloud engineers working in AWS environment
 
 
 
-\## Real World Use Cases
+## Real World Use Cases
 
 
 
@@ -240,7 +240,7 @@ Organizations use Infrastructure as Code tools like Terraform to deploy and mana
 
 
 
-\## Security Notes
+## Security Notes
 
 
 
@@ -256,13 +256,13 @@ In a production environment this would typically be restricted using:
 
 
 
-\- Specific trusted IP ranges
+- Specific trusted IP ranges
 
-\- Web Application Firewalls
+- Web Application Firewalls
 
-\- Load balancers
+- Load balancers
 
-\- Private subnets with NAT gateways
+- Private subnets with NAT gateways
 
 
 
@@ -270,53 +270,53 @@ In a production environment this would typically be restricted using:
 
 
 
-\## Screenshots
+## Screenshots
 
 
 
-\### Terraform Apply Success
+### Terraform Apply Success
 
 !\[Terraform Apply Success](screenshots/Terraform Apply Success.png)
 
 
 
-\### VPC Created
+### VPC Created
 
 !\[VPC](screenshots/VPC.png)
 
 
 
-\### Subnets
+### Subnets
 
 !\[Subnets](screenshots/Subnets.png)
 
 
 
-\### Route Table
+### Route Table
 
 !\[Route Table](screenshots/Route Table.png)
 
 
 
-\### Security Group
+### Security Group
 
 !\[Security Group](screenshots/Security Group.png)
 
 
 
-\### EC2 Instance Running
+### EC2 Instance Running
 
 !\[EC2 Instance](screenshots/EC2 Instance.png)
 
 
 
-\### Live Website
+### Live Website
 
 !\[Live Website](screenshots/Live Website.png)---
 
 
 
-\## Future Improvements
+## Future Improvements
 
 
 
@@ -324,15 +324,15 @@ Possible improvements to this architecture include:
 
 
 
-\- Deploying the EC2 instance behind an Application Load Balancer
+- Deploying the EC2 instance behind an Application Load Balancer
 
-\- Adding HTTPS with SSL certificates
+- Adding HTTPS with SSL certificates
 
 \- Implementing Auto Scaling groups
 
-\- Using Terraform modules for reusable infrastructure
+- Using Terraform modules for reusable infrastructure
 
-\- Deploying multiple environments (dev, staging, production)
+- Deploying multiple environments (dev, staging, production)
 
 
 
@@ -340,7 +340,7 @@ Possible improvements to this architecture include:
 
 
 
-\## Author
+## Author
 
 
 
