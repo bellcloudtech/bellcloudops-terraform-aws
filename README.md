@@ -312,7 +312,7 @@ In a production environment this would typically be restricted using:
 
 ### Live Website
 
-![Live Website](screenshots/Live Website.png)---
+![Live Website](screenshots/Live Website.png)
 
 
 
