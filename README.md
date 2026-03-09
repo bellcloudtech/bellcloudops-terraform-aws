@@ -276,43 +276,43 @@ In a production environment this would typically be restricted using:
 
 ### Terraform Apply Success
 
-!\[Terraform Apply Success](screenshots/Terraform Apply Success.png)
+![Terraform Apply Success](screenshots/Terraform Apply Success.png)
 
 
 
 ### VPC Created
 
-!\[VPC](screenshots/VPC.png)
+![VPC](screenshots/VPC.png)
 
 
 
 ### Subnets
 
-!\[Subnets](screenshots/Subnets.png)
+![Subnets](screenshots/Subnets.png)
 
 
 
 ### Route Table
 
-!\[Route Table](screenshots/Route Table.png)
+![Route Table](screenshots/Route Table.png)
 
 
 
 ### Security Group
 
-!\[Security Group](screenshots/Security Group.png)
+![Security Group](screenshots/Security Group.png)
 
 
 
 ### EC2 Instance Running
 
-!\[EC2 Instance](screenshots/EC2 Instance.png)
+![EC2 Instance](screenshots/EC2 Instance.png)
 
 
 
 ### Live Website
 
-!\[Live Website](screenshots/Live Website.png)---
+![Live Website](screenshots/Live Website.png)---
 
 
 
@@ -328,7 +328,7 @@ Possible improvements to this architecture include:
 
 - Adding HTTPS with SSL certificates
 
-\- Implementing Auto Scaling groups
+- Implementing Auto Scaling groups
 
 - Using Terraform modules for reusable infrastructure
 
