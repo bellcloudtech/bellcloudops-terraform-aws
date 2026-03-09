@@ -276,7 +276,7 @@ In a production environment this would typically be restricted using:
 
 \### Terraform Apply Success
 
-!\[Terraform Apply](screenshots/Terraform Apply Success.png)
+!\[Terraform Apply Success](screenshots/Terraform Apply Success.png)
 
 
 
@@ -312,11 +312,7 @@ In a production environment this would typically be restricted using:
 
 \### Live Website
 
-!\[Live Website](screenshots/Live Website.png)
-
-
-
----
+!\[Live Website](screenshots/Live Website.png)---
 
 
 
